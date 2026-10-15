@@ -1,0 +1,17 @@
+# Optimization: Exclude unnecessary files from build context to reduce image build time and footprint
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.git
+.gitignore
+.dockerignore
+*.md
+.vscode/
+.idea/
+*.log
+test_client.py
